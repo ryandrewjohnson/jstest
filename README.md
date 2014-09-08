@@ -3,13 +3,15 @@
 Please see my working example at:
 
 ```
-http://codepen.io/ryandrewjohnson/pen/CvLAd
+[http://codepen.io/ryandrewjohnson/pen/CvLAd](http://codepen.io/ryandrewjohnson/pen/CvLAd)
 ```
 
 
 ## 2. Suppose getData is a function that takes...
 
-Nothing would be printed by the following because forEach is called on an empty Array. This is because runMultipleQueries adds data to the results Array on an asynchronous callback, while the results Array is returned immediatly.
+Nothing would be printed by the following because forEach is called on an empty Array. This is because runMultipleQueries adds data to the results Array on an asynchronous callback, while the results Array is returned synchronously.
+
+For a functioning version of the fix that uses three $http requests in for an array of 'quereis' see `[http://codepen.io/ryandrewjohnson/pen/Cmztf](http://codepen.io/ryandrewjohnson/pen/Cmztf)`
 
 **FIX:**
 
@@ -43,7 +45,7 @@ To fix this issue we need a property e.g(model) added to the parent $scope to st
 Please see my working fix at:
 
 ```
-http://codepen.io/ryandrewjohnson/pen/oxzya
+[http://codepen.io/ryandrewjohnson/pen/oxzya](http://codepen.io/ryandrewjohnson/pen/oxzya)
 ```
 
 
@@ -61,7 +63,7 @@ getData(query, function(result) {	// handle the success case}, makeErrorHandle
 Please see my working example at:
 
 ```
-http://codepen.io/ryandrewjohnson/pen/jaknu
+[http://codepen.io/ryandrewjohnson/pen/jaknu](http://codepen.io/ryandrewjohnson/pen/jaknu)
 ```
 
 
@@ -70,5 +72,5 @@ http://codepen.io/ryandrewjohnson/pen/jaknu
 Please see my working example at:
 
 ```
-http://codepen.io/ryandrewjohnson/pen/jyecd
+[http://codepen.io/ryandrewjohnson/pen/jyecd](http://codepen.io/ryandrewjohnson/pen/jyecd)
 ```
