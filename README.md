@@ -11,7 +11,7 @@ Please see my working example at:
 
 Nothing would be printed by the following because forEach is called on an empty Array. This is because runMultipleQueries adds data to the results Array on an asynchronous callback, while the results Array is returned synchronously.
 
-For a functioning version of the fix that uses three $http requests in for an array of 'quereis' see [http://codepen.io/ryandrewjohnson/pen/Cmztf](http://codepen.io/ryandrewjohnson/pen/mztf)
+For a functioning version of the fix that uses three $http requests in for an array of 'quereis' see [http://codepen.io/ryandrewjohnson/pen/Cmztf](http://codepen.io/ryandrewjohnson/pen/Cmztf)
 
 **FIX:**
 
